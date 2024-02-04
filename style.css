@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     outline: none;
+    background: #0D1834FF;
 }
 
 .container {
@@ -13,40 +14,48 @@
     margin:0 auto;
 }
 .menu_field {
-
+   # margin-top:50px;
     width: 400px;
-    height: 100px;
+    height: 200px;
     background: #0D1834FF;
-    margin:0 auto;
-    border:1px solid red;
+    margin:20px auto;
+   # border:1px solid red;
 
 }
 
 
 .keyboard_up, .keyboard_down {
     display: flex;
-    justify-content: space-between;
+   #justify-content:space-between;
+    justify-content:center;
+    text-align:center;
+    margin:0 auto;
     margin-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border:1px solid red;
+   # padding-left: 10px;
+   # padding-right: 10px;
+   # border:1px solid red;
 }
 .btn {
-    width: min-content;
-    font-family: "Times New Roman", sans-serif;
-    font-size: 16px;
+    #width: max-content;
+    width:164px;
+    height:max-content;
+    font-family: "Colibri", sans-serif;
+    font-size: 12px;
     text-decoration: none;
     margin-top: 5px;
-
+    #margin-right:10px;
+    text-align:center;
     padding: 5px;
     background: #3a4156;
-    border:1px solid rgba(255, 255, 255, 0.8);
+   # border:1px solid rgba(255, 255, 255, 0.8);
+
     border-radius: 5px;
     color: rgba(255, 255, 255, 0.8);
 }
 
 .btn_create {
-   color: #0A6000FF;
+   color: #13C550FF;
+   margin-right:10px;
 }
 
 .btn_edit {
@@ -55,6 +64,7 @@
 
 .btn_cancel {
    color: #CE7F25FF;
+   margin-right:10px;
 }
 
 .btn_delete {
@@ -63,13 +73,13 @@
 
 
 .btn_create:active {
-   color: #0A6000FF;
-   box-shadow: 0 5px 14px #0A6000FF;
+   color: #13C550FF;
+   box-shadow: 0 5px 14px #13C550FF;
 }
 
 .btn_edit:active {
    color: 25CEC7FF;
-   box-shadow: 0 5px 14px 25CEC7FF;
+   box-shadow: 0 5px 14px #25CEC7FF;
 }
 
 .btn_cancel:active {
